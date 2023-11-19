@@ -2,6 +2,12 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson1.Library", "Lesson1.Library\Lesson1.Library.csproj", "{C4B3DC0C-3500-46E6-A1DE-745ABD94B7A4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson1.Rectangle", "Lesson1.Rectangle\Lesson1.Rectangle.csproj", "{7D1801EF-6FE8-432F-A5A3-366D917B3A73}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson1.Polygon", "Lesson1.Polygon\Lesson1.Polygon.csproj", "{811268EE-A7C8-401A-9237-A23F558C6823}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdressBook", "AdressBook\AdressBook.csproj", "{989A602E-B0DE-4129-9E7A-8382935C45FA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +18,17 @@ Global
 		{C4B3DC0C-3500-46E6-A1DE-745ABD94B7A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C4B3DC0C-3500-46E6-A1DE-745ABD94B7A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C4B3DC0C-3500-46E6-A1DE-745ABD94B7A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D1801EF-6FE8-432F-A5A3-366D917B3A73}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D1801EF-6FE8-432F-A5A3-366D917B3A73}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D1801EF-6FE8-432F-A5A3-366D917B3A73}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D1801EF-6FE8-432F-A5A3-366D917B3A73}.Release|Any CPU.Build.0 = Release|Any CPU
+		{811268EE-A7C8-401A-9237-A23F558C6823}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{811268EE-A7C8-401A-9237-A23F558C6823}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{811268EE-A7C8-401A-9237-A23F558C6823}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{811268EE-A7C8-401A-9237-A23F558C6823}.Release|Any CPU.Build.0 = Release|Any CPU
+		{989A602E-B0DE-4129-9E7A-8382935C45FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{989A602E-B0DE-4129-9E7A-8382935C45FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{989A602E-B0DE-4129-9E7A-8382935C45FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{989A602E-B0DE-4129-9E7A-8382935C45FA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

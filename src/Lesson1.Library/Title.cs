@@ -1,15 +1,16 @@
-﻿namespace Lesson1.Library;
-
-public class Title
+﻿namespace Lesson1.Library
 {
-    public string title;
-
-    public void Show()
+    public class Title
     {
-        Console.ForegroundColor = ConsoleColor.Red;
-        Console.WriteLine(title);
-        
-        // Resetting color of the text to make it default for other texts.
-        Console.ResetColor();
+        public string title;
+
+        public void Show()
+        {
+            Console.ForegroundColor = ConsoleColor.Red;
+            Console.WriteLine(title);
+
+            // Resetting color of the text to make it default for other texts.
+            Console.ResetColor();
+        }
     }
 }

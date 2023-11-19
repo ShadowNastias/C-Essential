@@ -1,15 +1,16 @@
-﻿namespace Lesson1.Library;
-
-public class Author
+﻿namespace Lesson1.Library
 {
-    public string author;
-
-    public void Show()
+    public class Author
     {
-        Console.ForegroundColor = ConsoleColor.DarkBlue;
-        Console.WriteLine(author);
-        
-        // Resetting color of the text to make it default for other texts.
-        Console.ResetColor();
+        public string author;
+
+        public void Show()
+        {
+            Console.ForegroundColor = ConsoleColor.DarkBlue;
+            Console.WriteLine(author);
+
+            // Resetting color of the text to make it default for other texts.
+            Console.ResetColor();
+        }
     }
 }
