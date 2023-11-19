@@ -1,4 +1,4 @@
-﻿namespace AddressBook
+﻿namespace Lesson1.AdressBook
 {
     public class Address
     {
