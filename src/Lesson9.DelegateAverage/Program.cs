@@ -1,4 +1,4 @@
-﻿namespace DelegateAverage;
+﻿namespace Lesson9.DelegateAverage;
 
 class Program
 {
