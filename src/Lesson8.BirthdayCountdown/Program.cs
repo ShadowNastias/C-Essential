@@ -1,4 +1,4 @@
-﻿namespace BirthdayCountdown;
+﻿namespace Lesson8.BirthdayCountdown;
 
 class Program
 {
