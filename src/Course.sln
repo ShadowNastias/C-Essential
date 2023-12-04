@@ -50,6 +50,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson7.ClassTaker", "Lesso
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson7.Notebook", "Lesson7.Notebook\Lesson7.Notebook.csproj", "{FFB3650D-8F1C-453B-B5BB-ED2C81697722}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson8.Print", "Lesson8.Print\Lesson8.Print.csproj", "{96BB8CB6-B3E0-4899-B4F4-D2C01B6CA83B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson8.Accountant", "Lesson8.Accountant\Lesson8.Accountant.csproj", "{CF67AE21-B594-4206-85E6-706D7FD71E94}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson8.BirthdayCountdown", "Lesson8.BirthdayCountdown\Lesson8.BirthdayCountdown.csproj", "{DB26BC41-C15A-41A7-867C-72A0D6E82706}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -156,5 +162,17 @@ Global
 		{FFB3650D-8F1C-453B-B5BB-ED2C81697722}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FFB3650D-8F1C-453B-B5BB-ED2C81697722}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FFB3650D-8F1C-453B-B5BB-ED2C81697722}.Release|Any CPU.Build.0 = Release|Any CPU
+		{96BB8CB6-B3E0-4899-B4F4-D2C01B6CA83B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96BB8CB6-B3E0-4899-B4F4-D2C01B6CA83B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96BB8CB6-B3E0-4899-B4F4-D2C01B6CA83B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96BB8CB6-B3E0-4899-B4F4-D2C01B6CA83B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF67AE21-B594-4206-85E6-706D7FD71E94}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF67AE21-B594-4206-85E6-706D7FD71E94}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF67AE21-B594-4206-85E6-706D7FD71E94}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF67AE21-B594-4206-85E6-706D7FD71E94}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB26BC41-C15A-41A7-867C-72A0D6E82706}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB26BC41-C15A-41A7-867C-72A0D6E82706}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB26BC41-C15A-41A7-867C-72A0D6E82706}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB26BC41-C15A-41A7-867C-72A0D6E82706}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
