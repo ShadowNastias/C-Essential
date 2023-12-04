@@ -13,3 +13,27 @@ class Program
         Console.WriteLine($"Division: {num1} / {num2} = {Calculator.Divide(num1, num2)}");
     }
 }
+
+🔗https://github.com/ShadowNastias/C-Essential/tree/main/src
+
+2-3) Lesson6.FindAndReplaceManager;
+
+4) Lesson6.ArrayExtensions;
+
+5) Static method and field
+
+Static variables
+
+Static Constructors
+
+Extension Methods
+
+Singleton
+
+    Constants
+
+Nested Classes
+
+6) Lesson6.Calculator;
+
+learn.microsoft.com
