@@ -7,7 +7,8 @@ class Program
         Func<double, double, double> Add = (x, y) => x + y;
         Func<double, double, double> Sub = (x, y) => x - y;
         Func<double, double, double> Mul = (x, y) => x * y;
-        Func<double, double, double> Div = (x, y) => y != 0 ? x / y : throw new DivideByZeroException("Division by zero is not allowed.");
+        Func<double, double, double> Div = (x, y) => y != 0 ? x / y :
+            throw new DivideByZeroException("Division by zero is not allowed.");
 
         Console.WriteLine("Виберіть операцію: Add, Sub, Mul, Div");
         string operation = Console.ReadLine().ToLower();
