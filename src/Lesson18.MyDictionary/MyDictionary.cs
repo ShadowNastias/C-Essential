@@ -1,6 +1,6 @@
 ﻿using System.Collections;
 
-namespace Lesson14.MyDictionary;
+namespace Lesson18.MyDictionary;
 
 public class MyDictionary<TKey, TValue> : IEnumerable<KeyValuePair<TKey, TValue>>
 {
@@ -15,7 +15,37 @@ public class MyDictionary<TKey, TValue> : IEnumerable<KeyValuePair<TKey, TValue>
                 throw new ArgumentException("An item with the same key has already been added.");
             }
         }
+
         _list.Add(new KeyValuePair<TKey, TValue>(key, value));
+    }
+
+    public bool Remove(TKey key)
+    {
+        for (int i = 0; i < _list.Count; i++)
+        {
+            if (EqualityComparer<TKey>.Default.Equals(_list[i].Key, key))
+            {
+                _list.RemoveAt(i);
+                return true;
+            }
+        }
+
+        return false;
+    }
+
+    public bool TryGetValue(TKey key, out TValue value)
+    {
+        foreach (var pair in _list)
+        {
+            if (EqualityComparer<TKey>.Default.Equals(pair.Key, key))
+            {
+                value = pair.Value;
+                return true;
+            }
+        }
+
+        value = default;
+        return false;
     }
 
     public TValue this[TKey key]
@@ -29,6 +59,7 @@ public class MyDictionary<TKey, TValue> : IEnumerable<KeyValuePair<TKey, TValue>
                     return pair.Value;
                 }
             }
+
             throw new KeyNotFoundException();
         }
         set
